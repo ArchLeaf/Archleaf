@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# remove sddm autologin file
+yes | rm /etc/sddm.conf.d/autologin.conf
